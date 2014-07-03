@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:Name="MiniBrowser"
     x:Class="MiniBrowser.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="166,43,173,0" Text="MiniBrowser" VerticalAlignment="Top"/>
+        <TextBox x:Name="URL" Margin="114,203,208,0" Text="https://google.com" VerticalAlignment="Center"/>
+        <Button x:Name="Go" Content="GO" HorizontalAlignment="Right" Margin="0,393,0,190" VerticalAlignment="Center" Click="Go_Click"/>
+        <WebView x:Name="Mini_Browser_web" Margin="149,540,151,0"/>
 
     </Grid>
 </Page>
