@@ -9,10 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Margin="166,43,173,0" Text="MiniBrowser" VerticalAlignment="Top"/>
-        <TextBox x:Name="URL" Margin="114,203,208,0" Text="https://google.com" VerticalAlignment="Center"/>
-        <Button x:Name="Go" Content="GO" HorizontalAlignment="Right" Margin="0,393,0,190" VerticalAlignment="Center" Click="Go_Click"/>
-        <WebView x:Name="Mini_Browser_web" Margin="149,540,151,0"/>
+        <TextBlock HorizontalAlignment="Center" Text="MiniBrowser" VerticalAlignment="Top" Height="80" Width="400" FontSize="72"/>
+        <TextBox x:Name="URL" Margin="10,81,126,521" Text="https://google.com" VerticalAlignment="Center" Height="38"/>
+        <Button x:Name="Go" Content="GO" HorizontalAlignment="Right" Margin="0,75,-2,511" VerticalAlignment="Center" Click="Go_Click" Height="54"/>
+        <WebView x:Name="Mini_Browser_web" Margin="0,124,0,0"/>
 
     </Grid>
 </Page>
